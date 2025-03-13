@@ -13,6 +13,6 @@ class Controller():
         self.Q_dot_gen_max = self.P_max * (1 - self.Eff)                        # [W] - Maximum Heat Generated (from Max Power)
         self.C = self.Head / (self.Flow ** 2)                                   # [-] - Pressure Drop Coefficient (from known point given in spec sheet)
     
-    def Head_Loss(self, Flow):                                               # Returns Pressure Drop [bar] for given Flow Rate [L/min]
+    def Head_Loss(self, Flow):                                                  # Returns Pressure Drop [bar] for given Flow Rate [L/min]
         loss = self.C * (Flow ** 2)
         return loss

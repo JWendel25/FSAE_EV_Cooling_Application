@@ -18,4 +18,4 @@ class Accumulator():
         if Factor_of_Safety != None : self.FoS = Factor_of_Safety
         else : self.FoS = 1                                                             # Effectively removes Factor of Safety from calcualtion if none is given
         self.Q_dot_gen = (self.I_max ** 2) * self.R_int * self.Num_Cell * self.FoS
-        return self.Q_dot_gen
+        return self.Q_dot_gen # Need to decide if/what calculation values will be stored in components vs main
