@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>951</width>
-    <height>412</height>
+    <width>1019</width>
+    <height>432</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,22 +19,22 @@
   <widget class="QStackedWidget" name="stackedWidget">
    <property name="geometry">
     <rect>
-     <x>-10</x>
+     <x>0</x>
      <y>0</y>
      <width>961</width>
      <height>411</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>3</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="langing">
     <widget class="Line" name="line">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>80</y>
-       <width>931</width>
+       <width>941</width>
        <height>21</height>
       </rect>
      </property>
@@ -45,9 +45,9 @@
     <widget class="QLabel" name="title_1">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>20</y>
-       <width>911</width>
+       <width>921</width>
        <height>51</height>
       </rect>
      </property>
@@ -60,7 +60,7 @@
       <string>Cooling Application</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="navEdit">
+    <widget class="QPushButton" name="NavEdit">
      <property name="geometry">
       <rect>
        <x>660</x>
@@ -78,7 +78,7 @@
       <string>Edit Previous Run</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="navCopy">
+    <widget class="QPushButton" name="NavCopy">
      <property name="geometry">
       <rect>
        <x>360</x>
@@ -96,7 +96,7 @@
       <string>New Run From Copy</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="navNew">
+    <widget class="QPushButton" name="NavNew">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -115,12 +115,12 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="newSim">
+   <widget class="QWidget" name="New_Sim">
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>180</y>
+       <y>190</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -138,7 +138,7 @@
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>180</y>
+       <y>190</y>
        <width>741</width>
        <height>31</height>
       </rect>
@@ -147,13 +147,13 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="launchNew">
+    <widget class="QPushButton" name="LaunchNew">
      <property name="geometry">
       <rect>
-       <x>700</x>
-       <y>300</y>
-       <width>241</width>
-       <height>101</height>
+       <x>820</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -168,9 +168,9 @@
     <widget class="Line" name="line_2">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>80</y>
-       <width>931</width>
+       <width>941</width>
        <height>21</height>
       </rect>
      </property>
@@ -181,9 +181,9 @@
     <widget class="QLabel" name="title_2">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>20</y>
-       <width>911</width>
+       <width>921</width>
        <height>51</height>
       </rect>
      </property>
@@ -196,14 +196,45 @@
       <string>Cooling Application | New Simulation</string>
      </property>
     </widget>
-   </widget>
-   <widget class="QWidget" name="copySim">
-    <widget class="Line" name="line_10">
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>941</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackNew">
      <property name="geometry">
       <rect>
        <x>20</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Copy_Sim">
+    <widget class="Line" name="line_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
        <y>80</y>
-       <width>931</width>
+       <width>941</width>
        <height>21</height>
       </rect>
      </property>
@@ -215,7 +246,7 @@
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>240</y>
+       <y>250</y>
        <width>741</width>
        <height>31</height>
       </rect>
@@ -224,13 +255,13 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="selectFileCopy">
+    <widget class="QPushButton" name="SelectFileCopy">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>120</y>
-       <width>231</width>
-       <height>91</height>
+       <x>380</x>
+       <y>140</y>
+       <width>201</width>
+       <height>71</height>
       </rect>
      </property>
      <property name="font">
@@ -246,7 +277,7 @@
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>240</y>
+       <y>250</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -263,9 +294,9 @@
     <widget class="QLabel" name="title_4">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>20</y>
-       <width>911</width>
+       <width>921</width>
        <height>51</height>
       </rect>
      </property>
@@ -278,13 +309,44 @@
       <string>Cooling Application | New Simulation from Copy</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="launchCopy">
+    <widget class="QPushButton" name="BackCopy">
      <property name="geometry">
       <rect>
-       <x>710</x>
-       <y>300</y>
-       <width>241</width>
-       <height>101</height>
+       <x>20</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>941</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="LaunchCopy">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="font">
@@ -297,13 +359,13 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="editSim">
+   <widget class="QWidget" name="Edit_Sim">
     <widget class="Line" name="line_9">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>80</y>
-       <width>931</width>
+       <width>941</width>
        <height>21</height>
       </rect>
      </property>
@@ -315,7 +377,7 @@
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>240</y>
+       <y>250</y>
        <width>741</width>
        <height>31</height>
       </rect>
@@ -327,9 +389,9 @@
     <widget class="QLabel" name="title_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>20</y>
-       <width>911</width>
+       <width>921</width>
        <height>51</height>
       </rect>
      </property>
@@ -342,29 +404,11 @@
       <string>Cooling Application | Edit Simulation</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="launchEdit">
-     <property name="geometry">
-      <rect>
-       <x>710</x>
-       <y>300</y>
-       <width>241</width>
-       <height>101</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>14</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Launch</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_17">
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>240</y>
+       <y>250</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -378,13 +422,13 @@
       <string>File Selected:</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="selectFilePrevious">
+    <widget class="QPushButton" name="SelectFileEdit">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>120</y>
-       <width>231</width>
-       <height>91</height>
+       <x>380</x>
+       <y>140</y>
+       <width>201</width>
+       <height>71</height>
       </rect>
      </property>
      <property name="font">
@@ -394,6 +438,117 @@
      </property>
      <property name="text">
       <string>Select Previous Run</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>941</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="LaunchEdit">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>350</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Launch</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="title_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>921</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Cooling Application</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>941</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="textDisplayError">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>921</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Error:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ErrorReturn">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>350</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>OK</string>
      </property>
     </widget>
    </widget>
